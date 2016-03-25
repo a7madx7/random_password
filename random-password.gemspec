@@ -5,12 +5,12 @@ require 'random/password/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "random-password"
-  spec.version       = Random::Password::VERSION
+  spec.version       = RandomPassword::VERSION
   spec.authors       = ["a7madx7"]
   spec.email         = ["ahmad.hamdi.emara@gmail.com"]
 
   spec.summary       = %q{Generates a tottally random password of a strength you choose}
-  spec.description   = %q{Random::Password.generate(strength = 8) method provides you with a tottally random 8 letter string password which you can alter its strength by providing another number as strength, ex: 16, 32, 64}
+  spec.description   = %q{RandomPassword.generate(strength = 8) method provides you with a tottally random 8 letter string password which you can alter its strength by providing another number as strength, ex: 16, 32, 64}
   spec.homepage      = "http://rubygems.org/gems/random_password"
   spec.license       = "MIT"
 

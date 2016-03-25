@@ -1,4 +1,4 @@
-# include Random::Password
+# include RandomPassword
 # generate(strength = 8) => An 8 letter random string password
 
 Welcome to random_password ruby gem, this gem will provide you with the generate(strength = 8) method,
@@ -22,7 +22,7 @@ Or install it yourself as:
 
 ## Usage
 
-include Random::Password
+include RandomPassword
 random_password = generate(16)
 
 ## Development

@@ -1,7 +1,6 @@
 require "random/password/version"
 
-module Random
-  module Password
+module RandomPassword
     def generate(strength = 8)
       strength = strength.to_i
       # create a one big array of seeding data
@@ -11,5 +10,4 @@ module Random
       # just to be sure, randomize them once more
       original.split('').shuffle.join
     end
-  end
 end
