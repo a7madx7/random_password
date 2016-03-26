@@ -1,3 +1,4 @@
+# require 'random/password'
 # include RandomPassword
 # generate(strength = 8) => An 8 letter random string password
 
@@ -22,8 +23,9 @@ Or install it yourself as:
 
 ## Usage
 
-include RandomPassword
-random_password = generate(16)
+# require 'random/password';
+# include RandomPassword;
+# random_password = generate(16)
 
 ## Development
 
@@ -33,7 +35,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/a7madx7/random-password.
+Bug reports and pull requests are welcome on GitHub at https://github.com/a7madx7/random_password.
 
 
 ## License

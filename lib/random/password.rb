@@ -8,6 +8,6 @@ module RandomPassword
       # get random 16 characters from this array
       original = (0...strength).map { seed[rand(seed.length)] }.join
       # just to be sure, randomize them once more
-      original.split('').shuffle.join
+      original.reverse!.split('').shuffle.join
     end
 end
